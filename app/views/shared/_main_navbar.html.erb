@@ -1,0 +1,20 @@
+<header>
+  <nav class="flex justify-between bg-[#2c3639] text-white p-4">
+    <ul class="flex gap-3">
+      <li>
+        <i class="fa-solid fa-book text-2xl"></i>
+      </li>
+      <li>
+        <strong>Juris</strong>Monitor
+      </li>
+    </ul>
+    <ul class="flex gap-3">
+      <li class="bg-[#9ff1e5] rounded">
+        <%= button_to 'Sign in', new_user_session_path, method: :get, class: "py-1 px-4 text-sm text-black font-semibold" %>
+      </li>
+      <li class="bg-[#ecffc8] rounded">
+        <%= button_to 'Sign up', new_user_registration_path, method: :get, class: "py-1 px-4 text-sm text-black font-semibold" %>
+      </li>
+    </ul>
+  </nav>
+</header>
