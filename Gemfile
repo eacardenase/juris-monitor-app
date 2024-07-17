@@ -72,6 +72,4 @@ gem "devise", "~> 4.9"
 
 gem "dotenv-rails"
 
-group :production do
-  gem "pg"
-end
+gem "pg"
